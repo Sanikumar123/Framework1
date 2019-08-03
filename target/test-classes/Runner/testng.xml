@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ZohoHomePageSuite">
+
+<listeners>
+
+<listener class-name="extentlisteners.ExtentListeners" />
+</listeners>
+
+  <test name="ZohoHomePageTest">
+    <classes>
+      
+      <class name="zoho.homepage.suitepack.ZohoHomePageTest"/>
+      <!--class name="zoho.signinpage.suitepack.ZohoSignInPageTest"/-->
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
